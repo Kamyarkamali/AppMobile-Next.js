@@ -28,3 +28,7 @@
   filter: brightness(0) saturate(100%) invert(40%) sepia(36%) saturate(573%)
     hue-rotate(256deg) brightness(94%) contrast(93%);
 }
+
+.gaps {
+  gap: -10px;
+}

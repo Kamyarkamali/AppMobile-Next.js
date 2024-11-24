@@ -1,74 +1,60 @@
 import React from "react";
+import { LuDot } from "react-icons/lu";
 
 function DotComponent() {
   return (
-    <div>
-      <div className="text-white flex flex-col gap-2 items-start justify-start absolute top-[70px] right-0">
-        <div className="gap-[6.5px] flex items-center justify-center">
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-        </div>
-        <div className="gap-[6.5px] flex items-center justify-center">
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-        </div>
-        <div className="gap-[6.5px] flex items-center justify-center">
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-        </div>
-        <div className="gap-[6.5px] flex items-center justify-center">
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-        </div>
-        <div className="gap-[6.5px] flex items-center justify-center">
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-          <div className="w-[4.05px] h-[4.05] rounded-[100%] bg-[#FFF]"></div>
-        </div>
+    <div className="text-white absolute top-[50px] flex flex-col gap-0 right-0">
+      <div className="flex">
+        <LuDot size={20} />
+        <LuDot size={20} className="-mr-[10px]" />
+        <LuDot size={20} className="-mr-[10px]" />
+        <LuDot size={20} className="-mr-[10px]" />
+        <LuDot size={20} className="-mr-[10px]" />
+        <LuDot size={20} className="-mr-[10px]" />
+        <LuDot size={20} className="-mr-[10px]" />
+        <LuDot size={20} className="-mr-[10px]" />
+        <LuDot size={20} className="-mr-[10px]" />
+        <LuDot size={20} className="-mr-[10px]" />
+        <LuDot size={20} className="-mr-[10px]" />
+      </div>
+      <div className="flex gap-[-10px]">
+        <LuDot size={20} className="-mt-[8px]" />
+        <LuDot size={20} className="-mr-[10px] -mt-[8px]" />
+        <LuDot size={20} className="-mr-[10px] -mt-[8px]" />
+        <LuDot size={20} className="-mr-[10px] -mt-[8px]" />
+        <LuDot size={20} className="-mr-[10px] -mt-[8px]" />
+        <LuDot size={20} className="-mr-[10px] -mt-[8px]" />
+        <LuDot size={20} className="-mr-[10px] -mt-[8px]" />
+        <LuDot size={20} className="-mr-[10px] -mt-[8px]" />
+        <LuDot size={20} className="-mr-[10px] -mt-[8px]" />
+        <LuDot size={20} className="-mr-[10px] -mt-[8px]" />
+        <LuDot size={20} className="-mr-[10px] -mt-[8px]" />
+      </div>
+      <div className="flex gap-[-10px]">
+        <LuDot size={20} className="-mt-[8px]" />
+        <LuDot size={20} className="-mr-[10px] -mt-[8px]" />
+        <LuDot size={20} className="-mr-[10px] -mt-[8px]" />
+        <LuDot size={20} className="-mr-[10px] -mt-[8px]" />
+        <LuDot size={20} className="-mr-[10px] -mt-[8px]" />
+        <LuDot size={20} className="-mr-[10px] -mt-[8px]" />
+        <LuDot size={20} className="-mr-[10px] -mt-[8px]" />
+        <LuDot size={20} className="-mr-[10px] -mt-[8px]" />
+        <LuDot size={20} className="-mr-[10px] -mt-[8px]" />
+        <LuDot size={20} className="-mr-[10px] -mt-[8px]" />
+        <LuDot size={20} className="-mr-[10px] -mt-[8px]" />
+      </div>
+      <div className="flex gap-[-10px]">
+        <LuDot size={20} className="-mt-[8px]" />
+        <LuDot size={20} className="-mr-[10px] -mt-[8px]" />
+        <LuDot size={20} className="-mr-[10px] -mt-[8px]" />
+        <LuDot size={20} className="-mr-[10px] -mt-[8px]" />
+        <LuDot size={20} className="-mr-[10px] -mt-[8px]" />
+        <LuDot size={20} className="-mr-[10px] -mt-[8px]" />
+        <LuDot size={20} className="-mr-[10px] -mt-[8px]" />
+        <LuDot size={20} className="-mr-[10px] -mt-[8px]" />
+        <LuDot size={20} className="-mr-[10px] -mt-[8px]" />
+        <LuDot size={20} className="-mr-[10px] -mt-[8px]" />
+        <LuDot size={20} className="-mr-[10px] -mt-[8px]" />
       </div>
     </div>
   );
