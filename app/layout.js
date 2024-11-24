@@ -10,8 +10,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fa" dir="rtl">
-      <body>
-        <Bgdaynamic>{children}</Bgdaynamic>
+      <body className="bg-[url('/images/bg.png')] bg-cover bg-center">
+        {children}
       </body>
     </html>
   );

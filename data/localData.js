@@ -24,3 +24,50 @@ export const dataCardImage = [
   { id: 23, image: "/imagesCart/23.png" },
   { id: 24, image: "/imagesCart/24.png" },
 ];
+
+export const homeMnu = [
+  { id: 5, title: "چهارمین", path: "/Fourth" },
+  { id: 4, title: "سومین", path: "/Third" },
+  { id: 3, title: "دومین", path: "/secound" },
+  { id: 2, title: "اولین", path: "/frist" },
+  { id: 1, title: "همه", path: "/" },
+];
+
+export const popularDataCard = [
+  {
+    id: 1,
+    image: "/images/alx.png",
+    image2: "/images/Rectangle 5.png",
+    price: "111,111,11",
+    title: "لورم اپیسوم متن",
+    title2: "لورم اپیسوم  ",
+    date: "22h:13m:43s",
+  },
+  {
+    id: 2,
+    image: "/images/alx.png",
+    image2: "/images/Rectangle 5.png",
+    price: "111,111,11",
+    title: "لورم اپیسوم متن",
+    title2: "لورم اپیسوم  ",
+    date: "22h:13m:43s",
+  },
+  {
+    id: 3,
+    image: "/images/alx.png",
+    image2: "/images/Rectangle 5.png",
+    price: "111,111,11",
+    title: "لورم اپیسوم متن",
+    title2: "لورم اپیسوم  ",
+    date: "22h:13m:43s",
+  },
+  {
+    id: 4,
+    image: "/images/alx.png",
+    image2: "/images/Rectangle 5.png",
+    price: "111,111,11",
+    title: "لورم اپیسوم متن",
+    title2: "لورم اپیسوم ",
+    date: "22h:13m:43s",
+  },
+];
