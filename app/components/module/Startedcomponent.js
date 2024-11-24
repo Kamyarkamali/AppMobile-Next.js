@@ -4,7 +4,7 @@ import StartedBtn from "../elements/StartedBtn";
 function Startedcomponent() {
   return (
     <div className="text-[#FFFF]">
-      <div className="flex justify-center mt-[54px]">
+      <div className="flex justify-center mt-[20px]">
         <p className="text-[26px] sm:text-[22px] md:text-[24px] lg:text-[26px] w-full max-w-[300px] text-center">
           لورم ایپسوم متن ساختگی با تولی
         </p>
