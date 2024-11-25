@@ -1,22 +1,16 @@
-import { dataCardImage } from "@/data/localData";
 import React from "react";
 
 function Cardata() {
   return (
-    <div className="flex items-center justify-center w-full">
-      <div className="relative w-[86%] max-w-[347px] h-[191px] p-2 grid grid-cols-8 gap-1 flex-wrap border-[1px] border-[#9F66C6] rounded-[10px] mx-auto overflow-hidden">
-        {dataCardImage.map((item) => (
-          <div className="relative p-1" key={item.id}>
-            <img
-              className="w-[45.42px] rotate-[-12deg] object-cover h-[45.42px] rounded-[10px]"
-              src={item.image}
-              alt={item.name}
-            />
-            <p className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-[50%] text-[10px] text-white font-bold bg-black bg-opacity-50 px-1 py-[2px] rounded">
-              {item.name}
-            </p>
-          </div>
-        ))}
+    <div className="flex items-center justify-center w-full z-20">
+      <div className="relative w-[86%] max-w-[347px] h-[191px] p-2 border-[1px] border-[#9F66C6] rounded-[10px] mx-auto overflow-hidden">
+        {/* عکس پس‌زمینه */}
+        <img
+          src="/images/photo_2024-11-25_18-38-39.jpg"
+          className="absolute inset-0 w-full h-full object-cover" // تغییرات اینجا
+          alt="Background"
+        />
+
         {/* Gradient Overlay */}
         <div
           className="absolute top-0 left-0 w-full h-full rounded-[10px]"

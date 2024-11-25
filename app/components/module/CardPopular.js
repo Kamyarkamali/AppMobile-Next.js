@@ -12,22 +12,25 @@ import { useMenuContext } from "@/app/context/ContextProvider";
 
 function CardPopular() {
   const { active } = useMenuContext();
-
   const filtereddata = popularDataCard[active] || [];
+
   return (
-    <div>
+    <div className="w-[130%] shadow-lg translate-x-7 mx-auto">
+      {" "}
+      {/* عرض را بیشتر کنید */}
       <Swiper
         centeredSlides={true}
-        spaceBetween={30}
+        loop={true}
+        spaceBetween={-80}
         breakpoints={{
           320: {
-            slidesPerView: 1.2,
+            slidesPerView: 2,
           },
           768: {
-            slidesPerView: 2.2,
+            slidesPerView: 2.5,
           },
           1024: {
-            slidesPerView: 3.2,
+            slidesPerView: 4,
           },
         }}
       >
@@ -35,7 +38,7 @@ function CardPopular() {
           <SwiperSlide key={index}>
             <div className="w-[290px] cursor-pointer h-[296px] relative flex flex-col gap-4 p-4">
               <img
-                className="w-[290px] h-[290px] object-cover "
+                className="h-[310px] mx-auto object-cover"
                 src={item.image}
                 alt={`Popular item ${index + 1}`}
               />
@@ -50,7 +53,7 @@ function CardPopular() {
                       <p className="text-sm">{item.date}</p>
                     </div>
                   </div>
-                  <div className="flex flex-col justify-center ">
+                  <div className="flex flex-col justify-center">
                     <div
                       className={`ml-2 flex flex-col items-center mb-3 ${
                         Object.values(item)[0] ? "ml-[6px]" : ""
