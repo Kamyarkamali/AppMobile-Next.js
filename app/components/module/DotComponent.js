@@ -3,7 +3,7 @@ import { LuDot } from "react-icons/lu";
 
 function DotComponent() {
   return (
-    <div className="text-white absolute top-[50px] flex flex-col gap-0 right-0">
+    <div className="text-white absolute top-[30px] flex flex-col gap-0 right-0">
       <div className="flex">
         <LuDot size={20} />
         <LuDot size={20} className="-mr-[10px]" />

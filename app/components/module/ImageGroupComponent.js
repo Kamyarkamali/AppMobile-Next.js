@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function ImageGroupComponent() {
   return (
-    <div className="flex justify-center mt-10 relative">
+    <div className="flex justify-center mt-14 relative">
       <Image
         src={"/images/Group 13_cleanup.png"}
         width={317}
