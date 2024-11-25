@@ -14,7 +14,7 @@ function Popular() {
         </div>
         <p className="text-[14px] font-bold cursor-pointer">پرمخاطب ترین</p>
       </div>
-      <div className="mt-[25px] max-w-[300px] mx-auto">
+      <div className="mt-[15px] max-w-[300px] mx-auto">
         <CardPopular />
       </div>
 

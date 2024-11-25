@@ -2,7 +2,7 @@ import HomeComponent from "../components/templates/HomeComponent";
 
 function HomePage() {
   return (
-    <div className="">
+    <div>
       <HomeComponent />
     </div>
   );

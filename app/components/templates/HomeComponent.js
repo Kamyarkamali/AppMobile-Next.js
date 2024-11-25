@@ -3,24 +3,24 @@ import TopBar from "../module/TopBar";
 import Carddata from "../module/Cardata";
 import MenuHomePage from "../module/MenuHomePage";
 import Popular from "../module/Popular";
+import { ContextProvider } from "@/app/context/ContextProvider";
 
 function HomeComponent() {
   return (
-    <div className="h-screen">
-      <div>
-        <TopBar />
-      </div>
-      <div className="flex items-center justify-center  mt-[36px]">
-        <Carddata />
-      </div>
-      <div>
-        <MenuHomePage />
-      </div>
+    <ContextProvider>
+      <div className="h-screen">
+        <div className="flex items-center justify-center  mt-[26px]">
+          <Carddata />
+        </div>
+        <div>
+          <MenuHomePage />
+        </div>
 
-      <div>
-        <Popular />
+        <div>
+          <Popular />
+        </div>
       </div>
-    </div>
+    </ContextProvider>
   );
 }
 

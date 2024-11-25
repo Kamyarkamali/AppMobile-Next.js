@@ -3,13 +3,13 @@ import StartedBtn from "../elements/StartedBtn";
 
 function Startedcomponent() {
   return (
-    <div className="text-[#FFFF]">
+    <div className="text-[#FFFF] overflow-hidden">
       <div className="flex justify-center mt-[20px]">
         <p className="text-[26px] sm:text-[22px] md:text-[24px] lg:text-[26px] w-full max-w-[300px] text-center">
           لورم ایپسوم متن ساختگی با تولی
         </p>
       </div>
-      <div className="flex justify-center mt-[17px]">
+      <div className="flex justify-center mt-[17px] pl-[17px] pr-[17px]">
         <p className="text-[#949494] text-[14px] sm:text-[12px] md:text-[13px] lg:text-[14px] w-full max-w-[350px] text-center">
           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
           استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در

@@ -1,3 +1,4 @@
+import TopBar from "./components/module/TopBar";
 import "./globals.css";
 
 import Bgdaynamic from "@/daynamicbaclGround/Bgdaynamic";
@@ -11,6 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fa" dir="rtl">
       <body className="bg-[url('/images/bg.png')] bg-cover bg-center">
+        <TopBar />
         {children}
       </body>
     </html>

@@ -4,8 +4,8 @@ import React, { useState } from "react";
 import HamburgerMenu from "./HamburgerMenu";
 
 function TopBar() {
-  const [open, setOpen] = useState(false); // For Hamburger Menu
-  const [searchOpen, setSearchOpen] = useState(false); // For Search Box
+  const [open, setOpen] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
 
   return (
     <div className="flex py-6 items-center justify-between mx-4 sm:mx-8 md:mx-12 relative">
@@ -14,7 +14,7 @@ function TopBar() {
         className="cursor-pointer sm:w-8 md:w-10"
         src="/icons/carbon_search.svg"
         alt="search"
-        onClick={() => setSearchOpen(!searchOpen)} // Toggle search box
+        onClick={() => setSearchOpen(!searchOpen)}
       />
 
       {/* Search Box */}

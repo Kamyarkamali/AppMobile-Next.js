@@ -7,9 +7,7 @@ function HamburgerMenuList() {
     <div>
       {homeMnu.map((item) => (
         <ul className="flex items-center justify-center gap-3 mt-8">
-          <Link key={item.id} href={item.path}>
-            <li>{item.title}</li>
-          </Link>
+          <li key={item.id}>{item.title}</li>
         </ul>
       ))}
     </div>

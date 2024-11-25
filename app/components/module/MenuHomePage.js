@@ -1,11 +1,11 @@
 "use client";
 
+import { useMenuContext } from "@/app/context/ContextProvider";
 import { homeMnu } from "@/data/localData";
 import Link from "next/link";
-import { useState } from "react";
 
 function MenuHomePage() {
-  const [active, setActive] = useState("همه");
+  const { active, setActive } = useMenuContext();
 
   const clickHandeler = (title) => {
     setActive(title);
@@ -15,18 +15,17 @@ function MenuHomePage() {
     <div className="text-white">
       <ul className="flex flex-wrap justify-center gap-4 sm:gap-4 mt-4 sm:mt-[31px] text-sm sm:text-[15px] text-[#949494]">
         {homeMnu.map((item) => (
-          <Link
+          <li
             onClick={() => clickHandeler(item.title)}
-            className={`transition duration-500 ease-in-out ${
+            className={`transition cursor-pointer duration-500 ease-in-out ${
               active === item.title
-                ? "bg-gray-800 rounded-[10px] w-[80px] h-[35px] text-center flex items-center justify-center"
+                ? "bg-gray-800 rounded-[10px] w-[80px] py-2  text-center flex items-center justify-center"
                 : "flex items-center justify-center"
             }`}
             key={item.id}
-            href={item.path}
           >
-            <li>{item.title}</li>
-          </Link>
+            {item.title}
+          </li>
         ))}
       </ul>
     </div>
